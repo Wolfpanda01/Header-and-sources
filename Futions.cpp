@@ -1,16 +1,16 @@
 #include "Futions.h"
 #include <iostream>
 using namespace std;
-
+using namespace story;
 /*void functintro
 no imput, no output, just the intro of the story of Isle of the story*/
-void functintro() {
+void story::elements::functintro() {
 	cout << "Welcome to the Isle of the Tuskva!" << endl;
 	cout << "You have gained animal powers and are being hunted like a wild animal." << endl;
 	cout << "The safe place to go is the Isle of the Tuskva where all of the animal people are and maybe you'll make a friend to help you!." << endl;
 	cout << "Pick 2 or 3";
 }
-void functmidchooses(int l) {
+void story::elements::functmidchooses(int l) {
 	cin >> l;
 	//void functmidchooses, middle of story, input number, output which friend you meet.
 	if (l > 2) {
@@ -33,12 +33,11 @@ void functmidchooses(int l) {
 		//input string, output the string in to the sentece 
 	}
 }
-void fuctionend() {
+void story::elements::fuctionend() {
 	cout << "You were shown around by a friendy local and they beacame your first friend on the isle that now is your home." << endl;
 	cout << "You made lots of friends and ilse life became sencnd nature." << endl;
 	cout << "The animal powers that you had gained became tamed by learn how to to control them on the isle." << endl;
 	cout << "Great job, You made a friend and got control of your powers!" << endl;
 	//end of story, no inputs, no outputs
 }
-
 

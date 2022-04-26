@@ -1,26 +1,21 @@
 // Header and Source Code files for Projects.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
-#include <string>
 #include "Futions.h"
-using namespace std;
+using namespace story;
+//using namespace std;
 int main()
 {
-	functintro();
-	functmidchooses(l);
-	fuctionend();
+	elements endgoal;
+	endgoal.functintro();
+	endgoal.functmidchooses(endgoal.l);
+	endgoal.fuctionend();
+	return 0;
 }
-/*
-Create a header file for a new CPP source file that you will make. done
-Put all functions in a separate CPP source file. done
 
-Your program should do something to demonstrate header and source files. 
 
-Comment your source code files (.CPP) well. 
-Once the program is working have tested it a few times, create a new repository in your GitHub account for your program.
-Take a screenshot of this project in GitHub.
-Take a screenshot of the program working.*/
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
